@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEA6CA581EBE3A5B00041E16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA6CA571EBE3A5B00041E16 /* main.m */; };
+		EEA6CA5B1EBE3A5B00041E16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA6CA5A1EBE3A5B00041E16 /* AppDelegate.m */; };
+		EEA6CA5E1EBE3A5B00041E16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA6CA5D1EBE3A5B00041E16 /* ViewController.m */; };
+		EEA6CA611EBE3A5B00041E16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA6CA5F1EBE3A5B00041E16 /* Main.storyboard */; };
+		EEA6CA631EBE3A5B00041E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA6CA621EBE3A5B00041E16 /* Assets.xcassets */; };
+		EEA6CA661EBE3A5B00041E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA6CA641EBE3A5B00041E16 /* LaunchScreen.storyboard */; };
+		EEA6CA6F1EBE3B0500041E16 /* LoadReadyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA6CA6E1EBE3B0500041E16 /* LoadReadyWindow.m */; };
+		EEA6CA751EBF1D7D00041E16 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA6CA741EBF1D7D00041E16 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEA6CA531EBE3A5B00041E16 /* 圆的放大动画效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "圆的放大动画效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA6CA571EBE3A5B00041E16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEA6CA591EBE3A5B00041E16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEA6CA5A1EBE3A5B00041E16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEA6CA5C1EBE3A5B00041E16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEA6CA5D1EBE3A5B00041E16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEA6CA601EBE3A5B00041E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEA6CA621EBE3A5B00041E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA6CA651EBE3A5B00041E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEA6CA671EBE3A5B00041E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA6CA6D1EBE3B0500041E16 /* LoadReadyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadReadyWindow.h; sourceTree = "<group>"; };
+		EEA6CA6E1EBE3B0500041E16 /* LoadReadyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadReadyWindow.m; sourceTree = "<group>"; };
+		EEA6CA731EBF1D7D00041E16 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EEA6CA741EBF1D7D00041E16 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEA6CA501EBE3A5B00041E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEA6CA4A1EBE3A5B00041E16 = {
+			isa = PBXGroup;
+			children = (
+				EEA6CA551EBE3A5B00041E16 /* 圆的放大动画效果 */,
+				EEA6CA541EBE3A5B00041E16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEA6CA541EBE3A5B00041E16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA6CA531EBE3A5B00041E16 /* 圆的放大动画效果.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEA6CA551EBE3A5B00041E16 /* 圆的放大动画效果 */ = {
+			isa = PBXGroup;
+			children = (
+				EEA6CA591EBE3A5B00041E16 /* AppDelegate.h */,
+				EEA6CA5A1EBE3A5B00041E16 /* AppDelegate.m */,
+				EEA6CA6D1EBE3B0500041E16 /* LoadReadyWindow.h */,
+				EEA6CA6E1EBE3B0500041E16 /* LoadReadyWindow.m */,
+				EEA6CA5C1EBE3A5B00041E16 /* ViewController.h */,
+				EEA6CA5D1EBE3A5B00041E16 /* ViewController.m */,
+				EEA6CA731EBF1D7D00041E16 /* SecondViewController.h */,
+				EEA6CA741EBF1D7D00041E16 /* SecondViewController.m */,
+				EEA6CA5F1EBE3A5B00041E16 /* Main.storyboard */,
+				EEA6CA621EBE3A5B00041E16 /* Assets.xcassets */,
+				EEA6CA641EBE3A5B00041E16 /* LaunchScreen.storyboard */,
+				EEA6CA671EBE3A5B00041E16 /* Info.plist */,
+				EEA6CA561EBE3A5B00041E16 /* Supporting Files */,
+			);
+			path = "圆的放大动画效果";
+			sourceTree = "<group>";
+		};
+		EEA6CA561EBE3A5B00041E16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEA6CA571EBE3A5B00041E16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEA6CA521EBE3A5B00041E16 /* 圆的放大动画效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA6CA6A1EBE3A5B00041E16 /* Build configuration list for PBXNativeTarget "圆的放大动画效果" */;
+			buildPhases = (
+				EEA6CA4F1EBE3A5B00041E16 /* Sources */,
+				EEA6CA501EBE3A5B00041E16 /* Frameworks */,
+				EEA6CA511EBE3A5B00041E16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "圆的放大动画效果";
+			productName = "圆的放大动画效果";
+			productReference = EEA6CA531EBE3A5B00041E16 /* 圆的放大动画效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEA6CA4B1EBE3A5B00041E16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					EEA6CA521EBE3A5B00041E16 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEA6CA4E1EBE3A5B00041E16 /* Build configuration list for PBXProject "圆的放大动画效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEA6CA4A1EBE3A5B00041E16;
+			productRefGroup = EEA6CA541EBE3A5B00041E16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEA6CA521EBE3A5B00041E16 /* 圆的放大动画效果 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEA6CA511EBE3A5B00041E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA6CA661EBE3A5B00041E16 /* LaunchScreen.storyboard in Resources */,
+				EEA6CA631EBE3A5B00041E16 /* Assets.xcassets in Resources */,
+				EEA6CA611EBE3A5B00041E16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEA6CA4F1EBE3A5B00041E16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA6CA751EBF1D7D00041E16 /* SecondViewController.m in Sources */,
+				EEA6CA5E1EBE3A5B00041E16 /* ViewController.m in Sources */,
+				EEA6CA6F1EBE3B0500041E16 /* LoadReadyWindow.m in Sources */,
+				EEA6CA5B1EBE3A5B00041E16 /* AppDelegate.m in Sources */,
+				EEA6CA581EBE3A5B00041E16 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEA6CA5F1EBE3A5B00041E16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA6CA601EBE3A5B00041E16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEA6CA641EBE3A5B00041E16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA6CA651EBE3A5B00041E16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEA6CA681EBE3A5B00041E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEA6CA691EBE3A5B00041E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEA6CA6B1EBE3A5B00041E16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "圆的放大动画效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zuji.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEA6CA6C1EBE3A5B00041E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "圆的放大动画效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zuji.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEA6CA4E1EBE3A5B00041E16 /* Build configuration list for PBXProject "圆的放大动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA6CA681EBE3A5B00041E16 /* Debug */,
+				EEA6CA691EBE3A5B00041E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA6CA6A1EBE3A5B00041E16 /* Build configuration list for PBXNativeTarget "圆的放大动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA6CA6B1EBE3A5B00041E16 /* Debug */,
+				EEA6CA6C1EBE3A5B00041E16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEA6CA4B1EBE3A5B00041E16 /* Project object */;
+}
